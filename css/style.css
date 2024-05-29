@@ -7,6 +7,7 @@
 /************general***********/
 html,body{
   font-family: "Open Sans", sans-serif;
+  color: #222;
 }
 h1,h2,h3{
   margin-bottom: 20px;
@@ -18,6 +19,12 @@ a{
 p{
   margin-bottom: 10px;
 }
+.container{
+  max-width: 1000px;
+  display: block;
+  margin: auto;
+}
+
 .separator {
   height: 10px;
   width: 100px;
@@ -100,7 +107,16 @@ p{
   font-size: 18px;
   letter-spacing: 0.5px;
 }
-
+/*****************features**************/
+.features {
+  overflow: auto;
+  padding: 100px 0;
+  text-align: center;
+}
+.feature {
+  float: left;
+  width: 50%;
+}
 
 
 
