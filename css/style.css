@@ -152,6 +152,93 @@ footer{
 footer p{
   margin-bottom: 0;
 }
+/*************maps*****************/
+.maps{
+  overflow: auto;
+  padding: 100px 0;
+  text-align: center;
+}
+.image{
+  float: left;
+  width: 50%;
+}
+img {
+  width: 400px;
+  height: 100%;
+}
+.content {
+  float: right;
+  overflow: auto;
+  width: 50%;
+}
+
+.separator2 {
+  height: 1px;
+  width: 192px;
+  background: #222;
+  margin: 0px auto;
+}
+span {
+  border-radius: 50%;
+  background: #9b59b6;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  width: 19px;
+}
+/**********************/
+
+
+.contact-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 420px;
+  display: table;
+  margin: 20px auto 20px;
+}
+.contact-form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+  
+}
+.contact-form span {
+  color: red;
+  background: none;
+}
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  
+}
+.contact-form button {
+   display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 15px 25px;
+    border-radius: 30px;
+    border: 1px solid #111;
+    cursor: pointer;
+    background: #111;
+    color: white;
+}
+
+.contact-form button:hover {
+  background-color: white;
+  color: #111;
+  
+}
 
 
 
