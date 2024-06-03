@@ -156,59 +156,63 @@ footer p{
 .maps{
   overflow: auto;
   padding: 100px 0;
-  text-align: center;
+  min-height: 100vh;
 }
-.image{
+.maps-images{
   float: left;
-  width: 50%;
+  width: 40%;
 }
-img {
+/*img {
   width: 400px;
   height: 100%;
-}
+}*/
 .content {
   float: right;
   overflow: auto;
   width: 50%;
+  text-align: center;
 }
 
 .separator2 {
-  height: 1px;
-  width: 192px;
-  background: #222;
-  margin: 0px auto;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
 }
-span {
+
+.mp {
   border-radius: 50%;
-  background: #9b59b6;
+  
   color: #fff;
   display: inline-block;
   text-align: center;
   width: 19px;
 }
+.mp-purple{
+  
+  background: #9b59b6;
+}
+.mp-brown{
+background: brown;
+}
 /**********************/
 
 
+
 .contact-form {
+  min-height: 100px;
+  padding: 100px 0;
+  }
+.contact-form-container{
   background-color: #fff;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 420px;
-  display: table;
-  margin: 20px auto 20px;
-}
-.contact-form h2 {
-  margin-bottom: 20px;
-  font-size: 24px;
-  color: #333;
+  max-width: 600px;
+  margin: auto;
+  
   
 }
-.contact-form span {
-  color: red;
-  background: none;
-}
+
 .contact-form label {
   display: block;
   margin-bottom: 5px;
@@ -220,23 +224,6 @@ span {
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 3px;
-  
-}
-.contact-form button {
-   display: inline-block;
-    font-weight: 700;
-    font-size: 14px;
-    padding: 15px 25px;
-    border-radius: 30px;
-    border: 1px solid #111;
-    cursor: pointer;
-    background: #111;
-    color: white;
-}
-
-.contact-form button:hover {
-  background-color: white;
-  color: #111;
   
 }
 
