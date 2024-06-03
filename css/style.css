@@ -87,7 +87,7 @@ p{
 }
 
 .header nav ul li{
-  float: left
+  float: left;
 }
 .header nav ul li a{
   padding: 20px;
@@ -107,14 +107,16 @@ p{
 }
 .vp-content{
   max-width: 600px;
+  padding: 20px;
   padding-top:150px;
   display: block;
   margin: auto;
   text-align: center;
+  
 }
 
 .vp-content h1 {
-  font-size: 40px;
+  font-size: 3rem;
   color: white;
 }
 .vp-content p {
@@ -126,7 +128,7 @@ p{
 /*****************features**************/
 .features {
   overflow: auto;
-  padding: 100px 0;
+  padding: 100px 20px;
   text-align: center;
 }
 .feature {
@@ -140,7 +142,7 @@ p{
 }
 /**********reservation************/
 .reservation{
-padding: 100px 0;
+padding: 100px 20px;
 text-align: center;
 }
 footer{
@@ -209,10 +211,7 @@ background: brown;
   width: 100%;
   max-width: 600px;
   margin: auto;
-  
-  
 }
-
 .contact-form label {
   display: block;
   margin-bottom: 5px;
